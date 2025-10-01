@@ -6,6 +6,14 @@ for (var i = 0; i < 3; i++) {   // rows
     }
     document.write(row + "<br>");
 }
+// question 2
+for(var i=1; i<5; i++){
+  for(var j=1; j<5; j++){
+    document.write(j , " ")
+  }
+document.write("<br>")
+}
+
 
 
 
