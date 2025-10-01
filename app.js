@@ -14,6 +14,14 @@ for(var i=1; i<5; i++){
 document.write("<br>")
 }
 
+// question 3
+for(var i=1; i<6; i++){
+    for(j=1; j<6; j++){
+        document.write(j , " ")
+    }
+  document.write("<br>")
+}
+
 
 
 
