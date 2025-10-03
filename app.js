@@ -53,5 +53,44 @@ for(var i=6; i>=1; i--){
   }
   document.write("<br>")
 }
+document.write("<br>")
+// question 8
+for(var i=1; i<=4; i++){
+  for(var j=1; j<=4; j++){
+    document.write("#. ")
+
+  }
+document.write("<br>")
+}
+document.write("<br>")
+// question 9
+var arry=[
+  [1,2,3],
+  [4,7,3],
+  [2,8,5]
+];
+for(var i=0; i<arry.length; i++){
+  for(var j=0; j<arry[i].length; j++){
+    document.write(arry[i][j]+ " ")
+  }
+  document.write("<br>")
+}
+
+
+document.write("<br>")
+// question 10
+var arry=[
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [11,12,13]
+];
+for(var i=0; i<3; i++){
+  for(var j=0; j<3; j++){
+    document.write(arry[j][i]+ " ")
+  }
+  document.write("<br>")
+}
+
 
 
