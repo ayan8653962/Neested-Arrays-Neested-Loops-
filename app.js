@@ -118,14 +118,38 @@ for(var i=0; i<arry.length; i++){
   }
 }
 document.writeln("Average of array " + sum / count)
-
-
-
-
-
-// document.writeln(arry[i] * arry[i][j])
-
-
+document.writeln("<br>")
+// question 13
+var max =arry[0][0];
+var array=[
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+];
+for(var i=0; i<array.length; i++){
+  for(var j=0; j<array[i].length; j++){
+    if(max < array[i][j]){
+      max = array[i][j]
+    }
+  }
+}
+document.writeln("Bigest number of an arry  " + max)
+document.writeln("<br>")
+// question 14
+var min = array[0][0];
+var array = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+];
+for(var i=0; i<array.length; i++){
+  for(var j=0; j<array[i].length; j++){
+    if(min > array[i][j]){
+      min = array[i][j]
+    }
+  }
+}
+document.writeln("Smollest number of an arry " + min)
 
 
 
