@@ -21,7 +21,7 @@ for(j=1; j<8; j++){
   document.write(divide += "* ")
   document.write("<br> ")  
 }
-// document.write("<br>")
+document.write("<br>")
 // question 4
 for(var i=1; i<6; i++){
     for(j=1; j<6; j++){
@@ -75,15 +75,12 @@ for(var i=0; i<arry.length; i++){
   }
   document.write("<br>")
 }
-
-
 document.write("<br>")
 // question 10
 var arry=[
   [1,2,3],
   [4,5,6],
   [7,8,9],
-  [11,12,13]
 ];
 for(var i=0; i<3; i++){
   for(var j=0; j<3; j++){
@@ -91,6 +88,46 @@ for(var i=0; i<3; i++){
   }
   document.write("<br>")
 }
+document.write("<br>")
+// question 11
+var sum = 0;
+var arry = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+for(var i=0; i<arry.length; i++){
+  for(var j=0; j<arry[i].length; j++){
+    sum = sum + arry[i][j]
+  }
+}
+document.writeln("Total sum of arry " + sum )
+document.writeln("<br>")
+// question 12
+var sum = 0;
+var count = 0;
+var arry = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+for(var i=0; i<arry.length; i++){
+  for(var j=0; j<arry[i].length; j++){
+    sum = sum + arry[i][j]
+    count++
+  }
+}
+document.writeln("Average of array " + sum / count)
+
+
+
+
+
+// document.writeln(arry[i] * arry[i][j])
+
+
+
+
 
 
 
