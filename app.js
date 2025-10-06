@@ -228,3 +228,20 @@ document.writeln("<br>")
   }
   document.writeln("Row " + (i + 1) + " ka sum " + sum + "<br>")
  }
+  document.writeln("<br>")
+  // question 20
+ var array =[
+  [1,2,3,4,5],
+  [6,7,8,9,10],
+  [11,12,13,14,15]
+ ];
+ for(var j=0; j<array[0].length; j++){
+  var total = 0 ;
+  for(var i=0; i<array.length; i++){
+    total += array[i][j]
+  }
+  document.writeln("Column " +  (j + 1) + " ka sum " + total + "<br>")
+ }
+
+
+
