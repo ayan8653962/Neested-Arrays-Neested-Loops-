@@ -225,6 +225,7 @@ document.writeln("<br>")
   var sum =0;
   for(var j=0; j<array[i].length; j++){
     sum +=array[i][j]
+    
   }
   document.writeln("Row " + (i + 1) + " ka sum " + sum + "<br>")
  }
@@ -242,6 +243,6 @@ document.writeln("<br>")
   }
   document.writeln("Column " +  (j + 1) + " ka sum " + total + "<br>")
  }
-
+document.writeln("<br>")
 
 
