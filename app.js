@@ -103,6 +103,7 @@ for(var i=0; i<arry.length; i++){
 }
 document.writeln("Total sum of arry " + sum )
 document.writeln("<br>")
+document.writeln("<br>")
 // question 12
 var sum = 0;
 var count = 0;
