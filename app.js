@@ -244,6 +244,42 @@ document.writeln("<br>")
   }
   document.writeln("Column " +  (j + 1) + " ka sum " + total + "<br>")
  }
-document.writeln("<br>")
+// document.writeln("<br>")
+// question 21
+var arry = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+var bigsum = 0;
+var maxRowIndex = 0; 
 
-
+for (var i = 0; i < arry.length; i++) {
+  var rowSum = 0;
+  for (var j = 0; j < arry[i].length; j++) {
+    rowSum += arry[i][j];
+  }
+  if (rowSum > bigsum) {
+    bigsum = rowSum;
+    maxRowIndex = i;
+  }
+}
+document.write("Row with largest sum is: " + (maxRowIndex + 1) + "<br>");
+// document.writeln("<br>")
+// question 21
+var arry = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+var smallest = arry[0][0];
+var smallestColIndex = 0;
+for (var j = 0; j < arry[0].length; j++) {
+  for (var i = 0; i < arry.length; i++) {
+    if (arry[i][j] < smallest) {
+      smallest = arry[i][j];
+      smallestColIndex = j;
+    }
+  }
+}
+document.write("column with smollest sum : " + (smallestColIndex + 1));
